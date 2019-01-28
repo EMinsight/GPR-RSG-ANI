@@ -1,3 +1,10 @@
+/*****************************************************************************
+Author       : Yongxu Lu
+Last modified: 2018-12.29
+Email        : Luyx@cumtb.cdu.cn
+Organization : China University of Mining and Technology, Beijing
+*****************************************************************************/
+
 #include <math.h>
 #include <fstream>
 #include <vector>
@@ -22,6 +29,7 @@ using namespace std;
 #define  I3(iz,ix,iy)   ((iz)*nx*ny             + (ix)*ny       + (iy))
 #define I33(iz,ix,iy)   ((iz)*nxpadded*nypadded + (ix)*nypadded + (iy))
 #define NUM_THREADS 28
+
 
 /*****************************************************************************
 -----------------------------Global parameters--------------------------------
